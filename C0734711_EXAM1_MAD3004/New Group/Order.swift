@@ -22,9 +22,9 @@ class Order
         self.orderDate = orderDate
     }
     
-     func getorderId(orderId: Int)
+    /*func getorderId(orderId: Int)
     {
-   // orderId = orderId
+    orderId = orderId
         
         switch orderId
         {
@@ -57,9 +57,12 @@ class Order
         
         
         default:
-            <#code#>
-        }}
-}
+     
+        print("NO DATA")
+        }}*/
+ 
+ 
+ }
 
 
 

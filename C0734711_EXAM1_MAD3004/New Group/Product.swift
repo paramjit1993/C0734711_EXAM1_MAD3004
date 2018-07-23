@@ -18,14 +18,14 @@ class Product: manufacturer
      init(manufacturerId: Int, manufacturerName: String,productId: Int,productName: String,productPrice: Float,productQuantity: Int)
     {
         
-      
+      super.init(manufacturerId: manufacturerId, manufacturerName: manufacturerName)
         
         self.productId = productId
         self.productName = productName
         self.productPrice = productPrice
         self.productQuantity = productQuantity
         
-       // super.init(manufacturerId: manufacturerId, manufacturerName: manufacturerName)
+       
         
     }
     
